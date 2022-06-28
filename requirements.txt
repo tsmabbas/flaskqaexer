@@ -3,4 +3,4 @@ flask_sqlalchemy
 pymysql
 flask-wtf 
 wtforms
-flask-testing
+flask_testing
