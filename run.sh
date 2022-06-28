@@ -1,8 +1,8 @@
 sudo apt-get update
-sudo apt install python3
-sudo apt install python3-venv 
-sudo apt install python3-pip
-sudo python3 -m venv venv
-sudo source venv/bin/activate
-sudo pip install -r requirements.txt
-sudo python3 app.py
+sudo apt install -y python3
+sudo apt install -y python3-venv 
+sudo apt install -y python3-pip
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 app.py
